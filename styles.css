@@ -1,0 +1,739 @@
+@font-face {
+    font-family: "Soyuz Grotesk"; 
+    src: url("fonts/Soyuz Grotesk/Soyuz Grotesk Bold.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  } 
+  
+
+@font-face {
+    font-family: "Montserrat"; 
+    src: url("fonts/Montserrat/Montserrat-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  } 
+
+span {color: #444444; font-weight: 400; line-height: 19.5px;}
+
+
+
+/* @media screen and (min-width: 1600px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1600px; 
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .up-header-container,
+    .up-header-content {
+        text-align: center;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav img {
+        margin-right: 0;
+    }
+
+    .left-block,
+    .right-block,
+    .left-block-project,
+    .right-block-project,
+    .AnimalBanners,
+    .HelpAnimal-left,
+    .HelpAnimal-right {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
+
+@media screen and (min-width: 1920px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1600px; /* Уменьшил максимальную ширину контейнера, чтобы сохранить отступы справа и слева
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .up-header-container,
+    .up-header-content {
+        text-align: center;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav img {
+        margin-right: 0;
+    }
+
+    .left-block,
+    .right-block,
+    .left-block-project,
+    .right-block-project,
+    .AnimalBanners,
+    .HelpAnimal-left,
+    .HelpAnimal-right {
+        width: 80%; /* Увеличил ширину блоков до 80% для создания отступов справа и слева 
+        margin: 0 auto; Центрируем блоки
+    }
+
+    .left-block img,
+    .right-main-cat,
+    .project img,
+    .AnimalBanners img {
+        width: 100%;
+        height: auto;
+        border-radius: 0; /* Убираем скругление у изображений
+    }
+
+    .DonateForm .email,
+    .DonateForm .donate {
+        width: 100%;
+    }
+}*/
+
+
+
+/* Add this media query for screens larger than 1366px */
+@media screen and (min-width: 1366px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1366px; /* Adjusted max-width for larger screens */
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .up-header-container,
+    .up-header-content {
+        text-align: center;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav img {
+        margin-right: 0;
+    }
+
+    .left-block,
+    .right-block,
+    .left-block-project,
+    .right-block-project,
+    .AnimalBanners,
+    .HelpAnimal-left,
+    .HelpAnimal-right {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .left-block img,
+    .right-main-cat,
+    .project img,
+    .AnimalBanners img {
+        width: 100%;
+        height: auto;
+        border-radius: 0; /* Remove border-radius for images */
+    }
+
+    .DonateForm .email,
+    .DonateForm .donate {
+        width: 100%;
+    }
+}
+
+/* Add this media query for screens larger than 1600px */
+@media screen and (min-width: 1600px) {
+    .container {
+        max-width: 1600px; /* Adjusted max-width for even larger screens */
+    }
+
+    .left-block,
+    .right-block,
+    .left-block-project,
+    .right-block-project,
+    .AnimalBanners,
+    .HelpAnimal-left,
+    .HelpAnimal-right {
+        width: 80%; /* Keep width at 80% for a balanced layout */
+        margin: 0 auto; /* Center the content */
+    }
+}
+
+/* Add this media query for screens larger than 1920px */
+@media screen and (min-width: 1920px) {
+    .container {
+        max-width: 1600px; /* Keep the max-width at 1600px */
+    }
+
+    .left-block,
+    .right-block,
+    .left-block-project,
+    .right-block-project,
+    .AnimalBanners,
+    .HelpAnimal-left,
+    .HelpAnimal-right {
+        width: 80%; /* Keep width at 80% for a balanced layout */
+        margin: 0 auto; /* Center the content */
+    }
+}
+
+
+
+h1,h2,h3,h4 {
+    font-family: "Soyuz Grotesk"; 
+    color: #444444;
+    font-size: 32px;
+    line-height: 30.82px;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    background-color: #FBEFDF;
+    line-height: 19.5px;
+    
+    
+}
+
+.container {
+    margin-left: 154px;
+    /* margin-right: 258px; */
+    margin-right: 154px;
+}
+
+header {
+    display: inline-block;
+    width: 1500px;
+    height: 136px;
+    background-color: #F7D4C6;
+}
+
+.up-header-container {
+    height: 46px;
+    border-bottom: 1px solid #444444;
+
+}
+
+.up-header-content {
+    padding-top: 14px;
+    font-weight: 400;    
+    
+}
+    .up-header-content img{
+        /* float: inline-start; */
+        width: 20px;
+        height: 20px;
+        padding-right: 5px;
+        
+    }
+
+    .up-header-content img, span {
+        float: inline-start;
+    }
+
+    .up-header-content .social-header-img-vk{
+        width: 24px;
+        height: 14.7px;
+        padding-right: 23px;
+    }
+
+    .up-header-content .social-header-img-tg{
+        width: 21px;
+        height: 17.65px;
+    }
+
+    .up-header-content span {
+        padding-right: 50px;
+    }
+
+    .up-header-content a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .up-header-content .right-text {
+        margin-left: 250px;
+        padding-right: 75px;
+    }
+
+/* .header-align-left img,span {
+    float: inline-start;
+} */
+
+
+nav{
+    display: block;
+    padding-top: 20px;
+}
+
+nav img{
+    float: inline-start;
+    width: 71px;
+    height: 71px;
+    padding-right: 115px;
+}
+
+.nav-menu {
+    padding-top: 10px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.nav-menu li {
+    display: inline-block;
+    padding-right: 35px;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+nav button {
+    border: none;
+    position: relative;
+    width: 177px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #E68380;
+    color: #FBEFDF;
+    /* border: 0px; */
+    /* letter-spacing: 1; */
+    font-size: 16px;
+    transition: all 500ms ease; 
+    /* box-sizing: border-box; */
+    cursor: pointer;
+}
+
+    nav button:before {
+        content:'';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 42px;
+        background: rgba(255,255,255,0.3);
+        border-radius: 5px;
+        transition: all 2s ease;
+        border-radius: 25px;
+    }
+
+    nav button:hover:before {
+        width: 100%;
+        border-radius: 25px;
+    }
+
+main {
+    padding-top: 50px;
+    width: 1500px;
+    height: auto;
+    /* 208 */
+ }
+
+.left-block {
+    float: left;
+    /* display: inline-block; */
+    width: 570px;
+    height: 473px;
+    background-color: #F7D4C6;
+    border-radius: 45px;
+}
+
+    .left-block img{
+        width: 570px;
+        height: 318px;
+        border-radius: 45px;
+        /* position: absolute; */
+    }
+
+    .left-block span, .left-block h2, .AnimalBanners span, .AnimalBanners h2, .HelpAnimal-left h2, .HelpAnimal-right h2, .HelpAnimal-right ol {margin-left: 25px;}
+
+    .okr, .okr_gr, .okr_yel, .okr_red {
+        width: 24px;
+        height: 24px;
+        /* background-color: #9CCA86; */
+        border-radius: 50%;
+        float: right;
+        margin-right: 25px;
+        margin-top: -55px;
+    }
+
+    .okr_gr {background-color: #9CCA86;}
+    .okr_yel {background-color: #D3B15A;}
+    .okr_red {background-color: #D35A5A;}
+
+.right-block {
+    float: right;
+    margin-left: 43px;
+    width: 579px;
+    height: 473px;
+}
+
+    .right-block-li {
+        border-radius: 45px;
+        margin-bottom: 25px;
+        width: 579px;
+        height: 99px;
+        background-color: #F7D4C6;
+        
+    }
+
+        .right-main-cat{
+            width: 119px;
+            height: 99px;
+            border-radius: 45px;
+        }
+
+        .right-block-li h2{
+            position: absolute;
+            margin-left: 150px;
+            margin-top: 35px;
+        }
+
+
+.left-block, .right-block {margin-bottom: 75px;}
+
+.project img {
+    width: 570px;
+    height: 318px;
+    border-radius: 45px;
+}
+
+.project .title-project-block {
+    padding-bottom: 70px;
+}
+
+
+
+.left-block-project {
+    float: left;
+    /* display: inline-block; */
+    width: 570px;
+    height: 669px;
+    background-color: #F7D4C6;
+    border-radius: 45px;
+    margin-bottom: 75px;
+}
+
+/* .left-block-project {float: left;}
+.right-block-project {float: right;} */
+
+.right-block-project {
+    float: right;
+    /* display: inline-block; */
+    width: 570px;
+    height: 669px;
+    background-color: #F7D4C6;
+    border-radius: 45px;
+    margin-bottom: 75px;
+}
+
+.project h2, .project span, .project p {margin-left: 25px}
+
+
+
+.progressbar {
+    top: 80px;
+    margin-left: 25px;
+    position: relative;
+    width: 526px;
+    height: 8px;
+    background-color: #FBEFDF;
+    border-radius: 36px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+}
+
+
+
+
+
+
+
+.MyAnimalTitle {
+    padding-bottom: 75px;
+}
+
+.points, .points_red{
+    display: inline-block;
+    height: 43px;
+    background-color: #F7D4C6;
+    border-radius: 36px;
+    margin-right: 30px;
+}
+.points {width: 177px;}
+.points_red{width: 247px;}
+    .points span, .points_red span{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 26px;
+    }
+
+    .points .okr_gr, .points .okr_yel, .points_red .okr_red {
+        margin-top: 8px;
+    }
+
+
+.AnimalBanners{
+    margin-top: 25px;
+    margin-right: 20px;
+    display: inline-block;
+    width: 373px;
+    height: 470px;
+    border-radius: 45px;
+    background-color: #F7D4C6;
+    margin-bottom: 150px;
+}
+
+    .AnimalBanners img{
+        width: 373px;
+        height: 318px;
+        border-radius: 45px;
+    }
+
+    .AnimalBanners button {
+        width: 335px;
+        height: 40px;
+        border-radius: 25px;
+        border: none;
+        cursor: pointer;
+        background-color: #E68380;
+        color: #FBEFDF;
+        font-size: 16px;
+        margin-left: 20px;
+        margin-top: 20px;
+        transition: all 500ms ease; 
+    }
+
+    .AnimalBanners button:hover {
+        background-color: #D35A5A;
+    }
+
+
+.HelpAnimal-left, .HelpAnimal-right {
+    width: 536px;
+    height: 367px;
+    background-color: #F7D4C6;
+    border-radius: 45px;
+    /* margin-right: 60px; */
+    margin-bottom: 150px;
+    
+}
+
+.HelpAnimal-left {float: left;}
+.HelpAnimal-right {float: right;}
+
+    .HelpAnimal-left h2, .HelpAnimal-right h2{
+        padding-top: 15px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 38.52px;
+    }
+
+    .DonateForm{
+        margin-left: 25px;
+    }
+
+        .DonateForm .email, .DonateForm .donate{
+            display: block;
+            margin-bottom: 20px;
+            background-color: #FBEFDF;
+            width: 473px;
+            height: 45px;
+            border-style: none;
+            border-radius: 45px;
+            padding-left: 10px;
+            font-size: 16px;
+        }
+
+        .DonateForm button{
+            cursor: pointer;
+            width: 177px;
+            height: 40px;
+            border-radius: 25px;
+            background-color: #E68380;
+            color: #FBEFDF;
+            border: 0px;
+            /* letter-spacing: 1; */
+            font-size: 16px;
+            transition: all 500ms ease; 
+
+        }
+
+            .DonateForm button:hover{
+                background: rgba(0,0,0,0);
+                color: #197C7F;
+                box-shadow: inset 0 0 0 3px #E68380;
+            }
+
+        .DonateForm a{
+            margin-left: 120px;
+            text-decoration: none;
+            color: #444444;
+        }
+
+.HelpAnimalcontainer {
+    width: 1172px;
+    
+}
+
+
+.register-container {
+    width: 569px;
+    margin-left: 30%;
+    background-color: #F7D4C6;
+    border-radius: 45px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+    .register-container input {
+        width: 354px;
+        height: 45px;
+        display: block;
+        margin-bottom: 22px;
+        margin-left: 110px;
+        top: 10px;
+        padding-left: 20px;
+        background-color: #FBEFDF;
+        color: #444444;
+        font-size: 16px;
+        border: none;
+        border-radius: 41px;
+        font-weight: 400;
+        line-height: 19.5px;
+    }
+
+    .register-container h2{
+        padding-top: 60px;
+        padding-bottom: 5px;
+        font-size: 40px;
+    }
+
+    .register-container button {
+        background-color: #E68380;
+        color: #FBEFDF;
+        font-size: 16px;
+        line-height: 19.5px;
+        font-weight: 400;
+        width: 240px;
+        height: 40px;
+        border: none;
+        border-radius: 25px;
+        margin-bottom: 25px;
+        cursor: pointer;
+        transition: all 500ms ease; 
+    }
+
+    @keyframes bounce {
+        0%, 20%, 60%, 100% {
+            transform: translateY(0);
+            transform: translateY(0);
+        }
+    
+        40% {
+            transform: translateY(-20px);
+            transform: translateY(-20px);
+        }
+    
+        80% {
+            transform: translateY(-10px);
+            transform: translateY(-10px);
+        }
+    }
+
+    .register-container button:hover{
+        animation: bounce 1s;
+    }
+
+    .register-container span {
+        margin-left: 193px;
+    }
+
+.help-block {
+    width: 720px;
+    height: 800px;
+    float: left;
+}
+
+.help-block-right-img {
+    border-radius: 45px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.search_cat {
+    width: 800px;
+    margin-top: -60px;
+    margin-bottom: 80px;
+}
+
+    .search_cat-input {
+        width: 522px;
+        height: 40px;
+        border-radius: 25px;
+        background-color: #F7D4C6;
+        color: #444444;
+        border: none;
+        font-size: 16px;
+        padding-left: 15px;
+        margin-right: 20px;
+    }
+
+    .search {
+        width: 119px;
+        height: 40px;
+        border-radius: 25px;
+        background-color: #E68380;
+        color: #FBEFDF;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        transform-style: preserve-3d;
+        transition: all 500ms ease; 
+    }
+
+    .search:after {
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 40px;
+        position: absolute;
+        background-color: #E68380;
+        content: 'друга';
+        border: none;
+        transform-origin: left bottom;
+        transform: rotateX(90deg);
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search:hover {
+        transform-origin: center bottom;
+        transform: rotateX(-90deg) translateY(100%);
+    }
